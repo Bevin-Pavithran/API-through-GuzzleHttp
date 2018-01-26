@@ -1,0 +1,47 @@
+.Absolute-Center {
+    width: 50%;
+    height: 50%;
+    min-width: 200px;
+    max-width: 400px;
+    padding: 20px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 3px;
+}
+
+/*Overwriting Label class*/
+
+label{
+    margin-bottom: 0rem;
+    margin-top: .5rem;
+}
+li{
+    color: red;
+    list-style: none;
+    margin-left: -1.9rem;
+}
+
+.form-control {
+    border: 2px solid #A9CCA1;
+}
+
+.btn {
+    margin-top: .5rem;
+}
+.result {
+    border: 2px solid #A9CCA1;
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+}

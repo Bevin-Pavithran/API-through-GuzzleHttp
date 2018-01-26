@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: /var/www/zipjet2/zipjet/app/config/routing_dev.yml
