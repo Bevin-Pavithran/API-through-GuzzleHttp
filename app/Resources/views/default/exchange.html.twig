@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div class="Absolute-Center">
+        <img src="http://c93fea60bb98e121740fc38ff31162a8.s3.amazonaws.com/wp-content/uploads/2017/08/ZipJet.png" width="100" height="20">
+        <div id="error">
+
+        </div>
+        <div class="col">
+            {{ form_start(form , { 'attr': {'class': 'form-control'} }) }}
+            {{ form_widget(form) }}
+            {{ form_end(form) }}
+        </div>
+    </div>
+{% endblock %}
+
