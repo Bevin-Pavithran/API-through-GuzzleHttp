@@ -1,4 +1,3 @@
-First thank you for this opportunity.
 Description
 ===========
 The application that I created consumes the http://fixer.io/ Rest-API to get the exchange rate.
